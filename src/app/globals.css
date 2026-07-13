@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #0f766e; /* Academic deep teal */
+  --color-brand-hover: #0d9488; /* Academic light teal */
+  --color-brand-bg: #fcfbf9; /* Warm editorial background */
+  --color-brand-card: #ffffff; /* Crisp white for cards */
+  --color-brand-border: #e7e5e4; /* Warm stone border */
+  
+  --font-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: #44403c; /* stone-700 */
+}
+
+/* Custom scrollbar to match theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1; /* stone-300 */
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e; /* stone-400 */
+}
+
+/* Accessibility: Skip link styling */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background: #0f766e;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  transition: top 0.2s ease-in-out;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* High-contrast focus state for keyboard navigation */
+*:focus-visible {
+  outline: 2px solid #0f766e;
+  outline-offset: 4px;
+}
+
+/* Print stylesheets for clean CV printing */
+@media print {
+  body {
+    background: white;
+    color: black;
+    font-size: 11pt;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-page-break {
+    page-break-before: always;
+  }
+}
