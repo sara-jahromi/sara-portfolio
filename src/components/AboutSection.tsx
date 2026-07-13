@@ -60,7 +60,7 @@ export const AboutSection: React.FC = () => {
             >
               Prof. Murat Uysal
             </a>
-            . My master&apos;s research focused on wireless communication systems, information theory, and visible light communications.
+            . My master&apos;s research focused on wireless communication systems, visible light communications, and Simultaneous Wireless Information and Power Transfer.
           </p>
 
           <p className="leading-relaxed">
