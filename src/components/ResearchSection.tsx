@@ -39,7 +39,7 @@ export const ResearchSection: React.FC = () => {
     <Section id="research" title="Research Areas" subtitle="THEORETICAL FOUNDATIONS & IMPACT">
       <div className="space-y-10">
         <p className="text-base md:text-lg leading-relaxed text-stone-600">
-          My research has evolved from communication systems and mathematical optimization to machine learning, reliable AI, information retrieval, and modern AI systems. Throughout this journey, I have been motivated by developing mathematically grounded methods for machine learning, information retrieval, and reliable AI under real-world constraints.
+          My research has evolved from communication systems and mathematical optimization to machine learning, reliable AI, information retrieval, and modern AI systems. Throughout this journey, I have been motivated by developing mathematically grounded methods for machine learning, information retrieval, and reliable AI.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
