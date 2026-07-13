@@ -25,7 +25,7 @@ export const AboutSection: React.FC = () => {
             >
               Prof. Joerg Kliewer
             </a>
-            . My research focused on reliable AI, machine learning, information retrieval, and optimization under uncertainty, with an emphasis on robust algorithms for decentralized learning, semantic retrieval, and distributed computation.
+            . My research focused on reliable AI, machine learning, and information retrieval under uncertainty, with an emphasis on robust algorithms for decentralized learning, semantic retrieval, and distributed computation.
           </p>
 
           <p className="leading-relaxed">
