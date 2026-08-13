@@ -73,7 +73,7 @@ export const AboutSection: React.FC = () => {
             <strong className="text-stone-900 font-semibold">IEEE Transactions on Communications</strong>,{" "}
             <strong className="text-stone-900 font-semibold">IEEE Transactions on Wireless Communications</strong>,{" "}
             <strong className="text-stone-900 font-semibold">IEEE Transactions on Mobile Computing</strong>, and{" "}
-            <strong className="text-stone-900 font-semibold">IEEE Wireless Communications Letters</strong>. My current interests include reliable machine learning systems, large language models, retrieval-augmented generation (RAG), and AI agents.
+            <strong className="text-stone-900 font-semibold">IEEE Wireless Communications Letters</strong>. My current interests include reliable machine learning, systems large language models, retrieval-augmented generation (RAG), and AI agents.
           </p>
         </div>
       </div>
