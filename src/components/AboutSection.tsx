@@ -64,12 +64,16 @@ export const AboutSection: React.FC = () => {
           </p>
 
           <p className="leading-relaxed">
-            I have authored publications in leading IEEE journals and conferences and serve as a reviewer for{" "}
+            I have published research in leading IEEE journals and conferences, including{" "}
+            <strong className="text-stone-900 font-semibold">IEEE Transactions on Wireless Communications</strong>,{" "}
+            <strong className="text-stone-900 font-semibold">IEEE Transactions on Information Forensics and Security</strong>,{" "}
+            <strong className="text-stone-900 font-semibold">IEEE GLOBECOM</strong>,{" "}
+            <strong className="text-stone-900 font-semibold">IEEE ISIT</strong>, and{" "}
+            <strong className="text-stone-900 font-semibold">IEEE ITW</strong>. I also serve as a reviewer for{" "}
             <strong className="text-stone-900 font-semibold">IEEE Transactions on Communications</strong>,{" "}
             <strong className="text-stone-900 font-semibold">IEEE Transactions on Wireless Communications</strong>,{" "}
-            <strong className="text-stone-900 font-semibold">IEEE Transactions on Mobile Computing</strong>,{" "}
-            <strong className="text-stone-900 font-semibold">IEEE Transactions on Information Forensics and Security</strong>, and{" "}
-            <strong className="text-stone-900 font-semibold">IEEE Wireless Communications Letters</strong>. My current interests include large language models, retrieval-augmented generation (RAG), AI agents, and reliable machine learning systems.
+            <strong className="text-stone-900 font-semibold">IEEE Transactions on Mobile Computing</strong>, and{" "}
+            <strong className="text-stone-900 font-semibold">IEEE Wireless Communications Letters</strong>. My current interests include reliable machine learning systems, large language models, retrieval-augmented generation (RAG), and AI agents.
           </p>
         </div>
       </div>
